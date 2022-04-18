@@ -8,7 +8,7 @@ pipeline{
 		}
 		stage("Two"){
 			steps{
-				input('DO you want to update to Development container?")
+				input('DO you want to update to Development container?')
 			}
 		}
 		stage("Three"){
