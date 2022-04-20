@@ -7,4 +7,4 @@ puppet resource file /testdir ensure=directory
 puppet resource file /testdir/clone ensure=directory
 cd /testdir/clone
 git clone https://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@github.com/walkiepanguin/devops_repo.git
-cp -p /testdir/clone/devops_repo/index.html /var/www/html
+cp -p /testdir/clone/devops_repo/testdir/work/devops_repo/index.html /var/www/html
